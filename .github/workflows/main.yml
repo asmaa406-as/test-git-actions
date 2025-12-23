@@ -1,8 +1,7 @@
 on:
   push:
     branches:
-      -master
-
+      - master
 
 
 
@@ -13,7 +12,7 @@ jobs:
 
     steps:
       - name: 'testing actions'
-        run: pwd
+        run : pwd
 
       - name: 'testing printing'
         run: echo asmaa
